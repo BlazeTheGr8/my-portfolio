@@ -5,14 +5,14 @@ const projectsData = [
     id: 1,
     title: 'Digital Resume',
     description: 'This digital resume was my first web related project and makes use of HTML and CSS',
-    imageUrl: '../src/assets/first.png', // Replace with the image path for your project
+    imageUrl: 'https://github.com/BlazeTheGr8/my-portfolio/blob/main/src/assets/first.png?raw=true', // Replace with the image path for your project
     projectUrl: 'https://superb-granita-20b81a.netlify.app/', // Replace with the URL of your project
   },
   {
     id: 2,
     title: 'Rick and Morty Quiz App',
     description: 'A quiz app to test your knowledge of Rick and Morty. Built with React and Redux.',
-    imageUrl: '../src/assets/second.png', // Replace with the image path for your project
+    imageUrl: 'https://github.com/BlazeTheGr8/my-portfolio/blob/main/src/assets/second.png?raw=true', // Replace with the image path for your project
     projectUrl: 'https://heroic-starship-5a6556.netlify.app/', // Replace with the URL of your project
   },
   // Add more project data here
@@ -38,3 +38,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
