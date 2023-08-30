@@ -4,19 +4,30 @@ import "../src/assets/first.png"
 const projectsData = [
   {
     id: 1,
-    title: 'Digital Resume',
-    description: 'This digital resume was my first web related project and makes use of HTML and CSS',
-    imageUrl: 'https://github.com/BlazeTheGr8/my-portfolio/blob/main/src/assets/first.png?raw=true', // Replace with the image path for your project
-    projectUrl: 'https://superb-granita-20b81a.netlify.app/', // Replace with the URL of your project
+    title: "Digital Resume",
+    description:
+      "This digital resume was my first web related project and makes use of HTML and CSS",
+    imageUrl:
+      "https://github.com/BlazeTheGr8/my-portfolio/blob/main/src/assets/first.png?raw=true",
+    projectUrl: "https://superb-granita-20b81a.netlify.app/",
   },
   {
     id: 2,
-    title: 'Book Connect App',
-    description: 'A quiz app to test your knowledge of Rick and Morty. Built with React and Redux.',
-    imageUrl: 'https://github.com/BlazeTheGr8/my-portfolio/blob/main/src/assets/second.png?raw=true', // Replace with the image path for your project
-    projectUrl: 'https://heroic-starship-5a6556.netlify.app/', // Replace with the URL of your project
+    title: "Book Connect App",
+    description:
+      "A book website where users can search for and view books by author, title and genre.",
+    imageUrl:
+      "https://github.com/BlazeTheGr8/my-portfolio/blob/main/src/assets/second.png?raw=true",
+    projectUrl: "https://heroic-starship-5a6556.netlify.app/",
   },
-  // Add PodCastle upon completion
+  {
+    id: 3,
+    title: "PodCastle",
+    description: "A Podcast app",
+    imageUrl:
+      "https://github.com/BlazeTheGr8/image-repo/blob/main/meta-pic.png?raw=true",
+    projectUrl: "https://podcastle.netlify.app/",
+  },
 ];
 
 const Projects = () => {
