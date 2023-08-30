@@ -1,3 +1,4 @@
+import React from "react";
 import "../src/assets/first.png"
 
 const projectsData = [
@@ -10,12 +11,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Rick and Morty Quiz App',
+    title: 'Book Connect App',
     description: 'A quiz app to test your knowledge of Rick and Morty. Built with React and Redux.',
     imageUrl: 'https://github.com/BlazeTheGr8/my-portfolio/blob/main/src/assets/second.png?raw=true', // Replace with the image path for your project
     projectUrl: 'https://heroic-starship-5a6556.netlify.app/', // Replace with the URL of your project
   },
-  // Add more project data here
+  // Add PodCastle upon completion
 ];
 
 const Projects = () => {

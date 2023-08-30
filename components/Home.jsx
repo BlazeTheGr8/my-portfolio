@@ -6,10 +6,16 @@ const Home = () => {
       <div className="home-content">
         <h1>Welcome to my Portfolio</h1>
         <p>
-          Hello, I'm Adam Castle, a web developer! This portfolio showcases my
-          projects and skills.
+          Hello! I'm Adam Castle, a Junior Software Developer. This evolving
+          portfolio highlights my projects and skills, crafted with ReactJS.
+          Stay tuned for more updates!
         </p>
-        <a href='https://drive.google.com/file/d/1b5PFBntJJsvLC0OryT_5tMRHADV0Ushj/view?usp=drive_link' target='_blank'><button>My CV</button></a>
+        <a
+          href="https://drive.google.com/file/d/1mVf6UxfTJbWWsYxTrAxqr4rAsGYG2NIb/view?usp=sharing"
+          target="_blank"
+        >
+          <button>My CV</button>
+        </a>
       </div>
     </div>
   );
